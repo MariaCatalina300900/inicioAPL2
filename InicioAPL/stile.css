@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#videoBG{
+    position:absolute;/*El video quedó centrado en la pagina*/
+    z-index: -1;/*hace que el video quede al fondo*/
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.formulario_inicioAPL{
+
+    width: 580px;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    padding:30px;
+    margin:30px auto;
+    margin-top:100px;
+    border: radius 10px;
+    font-family:'calibri';
+    border: 1px solid #1f53c5;
+    border-radius: 10px;
+}
+.ImagenAPL{
+    display: flex;/**************************************/
+    justify-content: center; /*Centrar el imagen de apl*/
+    align-items:center;/*********************************/
+    margin-bottom:  25px;
+}
+
+.grupo_nit{
+    width: 480px;
+    height: 70px;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin-top:20px;
+    margin-right:auto;
+    margin-bottom:  50px;
+    margin-left:  auto;
+   
+}
+.grupo_label1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 450px 5px 0px;
+    left: -20px;
+}
+
+.grupo_label2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 380px 5px 0px;
+    left: -20px;
+}
+.formulario_input{
+    width:100%;
+    background:  #E8E8E8;
+    padding: 0 20px 0 10px;
+    margin-bottom: 16px;/*separacion de los textos*/
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size:18px;
+    color:black; /*Color del texto al escribir*/
+    height: 45px;
+    line-height:45;
+    transition: .3s ease all;
+    border: 1px solid #AFA9F6;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline:none;
+}
+.formulario_input:focus{
+  border:2px solid rgb(24, 59, 214);
+  
+}
+.formulario_input-error{
+    border: 2px solid #bb2929;
+}
+.grupo_contraseña{
+    width: 468px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-right:auto;
+    margin-bottom:30px;
+    margin-left:20px;
+}
+.formulario__grupo-input{
+    position: relative;
+    display: flex;/**************************************/
+    justify-content: center; /*Centrar el imagen de apl*/
+    align-items:center;/*********************************/
+    padding: 30px 20px 10px 35px;
+    width: 518px;
+    height: 70px;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    left: 584px;
+    top: 684px;
+
+    background: #0A6ED9;
+    border-radius: 35px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top:0px; 
+    border: 0;
+    cursor: pointer; 
+    color:#f2f2f2
+}
+.grupo_boton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: #6082df; /*Hace que cambie de color cuando el cursor esté sobre el boton*/
+    color:#09133b;
+
+}
+.olvContraseña{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #0815c5;
+}
+
+.NuevCuenta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__validacion-eye{
+   
+    right: 25px;
+    position:absolute;
+    top:50%;
+    transform: translate(-60%);
+    cursor:pointer;
+    transition: .4s ease all;
+    padding: 0px 0px 0px 0px;
+    margin:-15px -15px ;
+}
+.formulario__validacion-eye:hover{ /*Para que al pasar el cursor por el ojo cambie de color*/
+    color:rgba(26, 75, 211, 0.925);
+}
+
+.formulario__mensaje{
+    height:30px;
+    width: 350px;
+    background: #d62e2e;
+    border-radius: 3px;
+    color:white;
+    display: flex;/**************************************/
+    justify-content: center; /*Centrar */
+    align-items:center;/*********************************/
+    margin-top:10px;
+    margin-right:auto;
+    margin-bottom: 10px;
+    margin-left:  auto;
+   
+    display:none; /*Mantiene oculto el mensaje de error*/
+}
+
+.formulario__mensaje-activo{
+    display:flex;
+}
+.formulario_inicioAPL a{
+    color:black;
+    text-decoration:none;
+}
+
+.formulario_inicioAPL a:hover{
+    color:rgb(24, 59, 214);
+    text-decoration:underline;
+
+}
+.formulario_grupo-input{
+    position:relative;
+}
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
